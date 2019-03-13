@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllPets" representedClassName="AllPets" syncable="YES" codeGenerationType="class">
+        <attribute name="fav" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="extras" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Extras" inverseName="extraInfo" inverseEntity="Extras" syncable="YES"/>
+        <relationship name="favorite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CurrentUser" inverseName="favoritePet" inverseEntity="CurrentUser" syncable="YES"/>
+    </entity>
+    <entity name="CurrentUser" representedClassName="CurrentUser" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="extraIncome" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="income" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maritalStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexe" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="favoritePet" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AllPets" inverseName="favorite" inverseEntity="AllPets" syncable="YES"/>
+    </entity>
+    <entity name="Extras" representedClassName="Extras" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="extraInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AllPets" inverseName="extras" inverseEntity="AllPets" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllPets" positionX="-94.27734375" positionY="115.875" width="128" height="163"/>
+        <element name="CurrentUser" positionX="210.34765625" positionY="181.48046875" width="128" height="195"/>
+        <element name="Extras" positionX="163.7109375" positionY="-4.875" width="128" height="118"/>
+    </elements>
+</model>

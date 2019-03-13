@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F4A599B8642245CA3FE7F /* Pods_Pet_Shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4F5F37F4AC42C27492213B /* Pods_Pet_Shop.framework */; };
+		CB80D576221C3C9400AFD041 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80D575221C3C9400AFD041 /* MapViewController.swift */; };
+		CB80D578221C3E1700AFD041 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB80D577221C3E1700AFD041 /* MapKit.framework */; };
+		CB87E573221DA7CB000739BF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87E572221DA7CB000739BF /* CoreDataStack.swift */; };
+		CB87E577221EFAEA000739BF /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87E576221EFAEA000739BF /* FavoritesTableViewController.swift */; };
+		CB89BAC8221AA03A00D06C56 /* Adopt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89BAC7221AA03A00D06C56 /* Adopt.swift */; };
+		CB89BAD4221ADF5600D06C56 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89BAD3221ADF5600D06C56 /* ListView.swift */; };
+		CB89BAD6221ADF6B00D06C56 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89BAD5221ADF6B00D06C56 /* GridView.swift */; };
+		CB8F5FC522140BC0000039BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8F5FC422140BC0000039BF /* User.swift */; };
+		CB8F5FC722145872000039BF /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8F5FC622145872000039BF /* LogIn.swift */; };
+		CB9C55F02216AFF5001EC8AA /* PetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C55EF2216AFF5001EC8AA /* PetInfoViewController.swift */; };
+		CB9C55F42216CBD2001EC8AA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9C55F32216CBD2001EC8AA /* ProfileViewController.swift */; };
+		CBA349D62212BE0500481A8D /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA349D52212BE0500481A8D /* Pet.swift */; };
+		CBB954142211A8CC00453DBA /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB954132211A8CC00453DBA /* PetsViewController.swift */; };
+		CBD1D528221163A80042BBFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D527221163A80042BBFD /* AppDelegate.swift */; };
+		CBD1D52A221163A80042BBFD /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D529221163A80042BBFD /* LogInViewController.swift */; };
+		CBD1D52D221163A80042BBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD1D52B221163A80042BBFD /* Main.storyboard */; };
+		CBD1D530221163A80042BBFD /* Pet_Shop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D52E221163A80042BBFD /* Pet_Shop.xcdatamodeld */; };
+		CBD1D532221163AA0042BBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD1D531221163AA0042BBFD /* Assets.xcassets */; };
+		CBD1D535221163AA0042BBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD1D533221163AA0042BBFD /* LaunchScreen.storyboard */; };
+		CBD1D53F22117C5F0042BBFD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD1D53E22117C5F0042BBFD /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		117C38E950180789F6FAD1CE /* Pods-Pet Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Shop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pet Shop/Pods-Pet Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4F5F37F4AC42C27492213B /* Pods_Pet_Shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB80D575221C3C9400AFD041 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CB80D577221C3E1700AFD041 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CB87E572221DA7CB000739BF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CB87E576221EFAEA000739BF /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		CB89BAC7221AA03A00D06C56 /* Adopt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adopt.swift; sourceTree = "<group>"; };
+		CB89BAD3221ADF5600D06C56 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CB89BAD5221ADF6B00D06C56 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CB8F5FC422140BC0000039BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB8F5FC622145872000039BF /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		CB9C55EF2216AFF5001EC8AA /* PetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInfoViewController.swift; sourceTree = "<group>"; };
+		CB9C55F32216CBD2001EC8AA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CBA349D52212BE0500481A8D /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		CBB954132211A8CC00453DBA /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
+		CBD1D524221163A80042BBFD /* Pet Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD1D527221163A80042BBFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD1D529221163A80042BBFD /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CBD1D52C221163A80042BBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD1D52F221163A80042BBFD /* Pet_Shop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pet_Shop.xcdatamodel; sourceTree = "<group>"; };
+		CBD1D531221163AA0042BBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD1D534221163AA0042BBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD1D536221163AA0042BBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD1D53E22117C5F0042BBFD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E60C77E3ABDC00D60BCF18C8 /* Pods-Pet Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Shop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pet Shop/Pods-Pet Shop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD1D521221163A80042BBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB80D578221C3E1700AFD041 /* MapKit.framework in Frameworks */,
+				000F4A599B8642245CA3FE7F /* Pods_Pet_Shop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE1122B547B5E4FD3F9B08B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB80D577221C3E1700AFD041 /* MapKit.framework */,
+				9A4F5F37F4AC42C27492213B /* Pods_Pet_Shop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6455A2137D72EFA4B64ED385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				117C38E950180789F6FAD1CE /* Pods-Pet Shop.debug.xcconfig */,
+				E60C77E3ABDC00D60BCF18C8 /* Pods-Pet Shop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB8490432215B56200ECA062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB8F5FC422140BC0000039BF /* User.swift */,
+				CBA349D52212BE0500481A8D /* Pet.swift */,
+				CB89BAC7221AA03A00D06C56 /* Adopt.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB8490442215B56900ECA062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1D52B221163A80042BBFD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB8490452215B57100ECA062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1D529221163A80042BBFD /* LogInViewController.swift */,
+				CBD1D53E22117C5F0042BBFD /* SignUpViewController.swift */,
+				CBB954132211A8CC00453DBA /* PetsViewController.swift */,
+				CB9C55EF2216AFF5001EC8AA /* PetInfoViewController.swift */,
+				CB9C55F32216CBD2001EC8AA /* ProfileViewController.swift */,
+				CB80D575221C3C9400AFD041 /* MapViewController.swift */,
+				CB89BAD3221ADF5600D06C56 /* ListView.swift */,
+				CB89BAD5221ADF6B00D06C56 /* GridView.swift */,
+				CB87E576221EFAEA000739BF /* FavoritesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBD1D51B221163A80042BBFD = {
+			isa = PBXGroup;
+			children = (
+				CBD1D526221163A80042BBFD /* Pet Shop */,
+				CBD1D525221163A80042BBFD /* Products */,
+				6455A2137D72EFA4B64ED385 /* Pods */,
+				3BE1122B547B5E4FD3F9B08B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD1D525221163A80042BBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1D524221163A80042BBFD /* Pet Shop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD1D526221163A80042BBFD /* Pet Shop */ = {
+			isa = PBXGroup;
+			children = (
+				CBD1D527221163A80042BBFD /* AppDelegate.swift */,
+				CB8F5FC622145872000039BF /* LogIn.swift */,
+				CB87E572221DA7CB000739BF /* CoreDataStack.swift */,
+				CB8490452215B57100ECA062 /* Controller */,
+				CB8490442215B56900ECA062 /* View */,
+				CB8490432215B56200ECA062 /* Model */,
+				CBD1D531221163AA0042BBFD /* Assets.xcassets */,
+				CBD1D533221163AA0042BBFD /* LaunchScreen.storyboard */,
+				CBD1D536221163AA0042BBFD /* Info.plist */,
+				CBD1D52E221163A80042BBFD /* Pet_Shop.xcdatamodeld */,
+			);
+			path = "Pet Shop";
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD1D523221163A80042BBFD /* Pet Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD1D539221163AA0042BBFD /* Build configuration list for PBXNativeTarget "Pet Shop" */;
+			buildPhases = (
+				35F2144897BE2FA95DCC3609 /* [CP] Check Pods Manifest.lock */,
+				CBD1D520221163A80042BBFD /* Sources */,
+				CBD1D521221163A80042BBFD /* Frameworks */,
+				CBD1D522221163A80042BBFD /* Resources */,
+				866E186EF9C9614BB3DC066F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Shop";
+			productName = "Pet Shop";
+			productReference = CBD1D524221163A80042BBFD /* Pet Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD1D51C221163A80042BBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michel Bou khalil";
+				TargetAttributes = {
+					CBD1D523221163A80042BBFD = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CBD1D51F221163A80042BBFD /* Build configuration list for PBXProject "Pet Shop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD1D51B221163A80042BBFD;
+			productRefGroup = CBD1D525221163A80042BBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD1D523221163A80042BBFD /* Pet Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD1D522221163A80042BBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD1D535221163AA0042BBFD /* LaunchScreen.storyboard in Resources */,
+				CBD1D532221163AA0042BBFD /* Assets.xcassets in Resources */,
+				CBD1D52D221163A80042BBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F2144897BE2FA95DCC3609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet Shop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866E186EF9C9614BB3DC066F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pet Shop/Pods-Pet Shop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pet Shop/Pods-Pet Shop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD1D520221163A80042BBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB87E573221DA7CB000739BF /* CoreDataStack.swift in Sources */,
+				CBD1D52A221163A80042BBFD /* LogInViewController.swift in Sources */,
+				CB89BAC8221AA03A00D06C56 /* Adopt.swift in Sources */,
+				CB87E577221EFAEA000739BF /* FavoritesTableViewController.swift in Sources */,
+				CB9C55F02216AFF5001EC8AA /* PetInfoViewController.swift in Sources */,
+				CB89BAD6221ADF6B00D06C56 /* GridView.swift in Sources */,
+				CB9C55F42216CBD2001EC8AA /* ProfileViewController.swift in Sources */,
+				CBB954142211A8CC00453DBA /* PetsViewController.swift in Sources */,
+				CBD1D528221163A80042BBFD /* AppDelegate.swift in Sources */,
+				CBD1D53F22117C5F0042BBFD /* SignUpViewController.swift in Sources */,
+				CBD1D530221163A80042BBFD /* Pet_Shop.xcdatamodeld in Sources */,
+				CB89BAD4221ADF5600D06C56 /* ListView.swift in Sources */,
+				CBA349D62212BE0500481A8D /* Pet.swift in Sources */,
+				CB8F5FC522140BC0000039BF /* User.swift in Sources */,
+				CB8F5FC722145872000039BF /* LogIn.swift in Sources */,
+				CB80D576221C3C9400AFD041 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBD1D52B221163A80042BBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD1D52C221163A80042BBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD1D533221163AA0042BBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD1D534221163AA0042BBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD1D537221163AA0042BBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD1D538221163AA0042BBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD1D53A221163AA0042BBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117C38E950180789F6FAD1CE /* Pods-Pet Shop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbk.Pet-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD1D53B221163AA0042BBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60C77E3ABDC00D60BCF18C8 /* Pods-Pet Shop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet Shop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mbk.Pet-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD1D51F221163A80042BBFD /* Build configuration list for PBXProject "Pet Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD1D537221163AA0042BBFD /* Debug */,
+				CBD1D538221163AA0042BBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD1D539221163AA0042BBFD /* Build configuration list for PBXNativeTarget "Pet Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD1D53A221163AA0042BBFD /* Debug */,
+				CBD1D53B221163AA0042BBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBD1D52E221163A80042BBFD /* Pet_Shop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBD1D52F221163A80042BBFD /* Pet_Shop.xcdatamodel */,
+			);
+			currentVersion = CBD1D52F221163A80042BBFD /* Pet_Shop.xcdatamodel */;
+			path = Pet_Shop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBD1D51C221163A80042BBFD /* Project object */;
+}
